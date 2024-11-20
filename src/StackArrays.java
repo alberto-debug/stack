@@ -15,5 +15,5 @@ public class StackArrays {
     public static void main (String[] args){
 
     }
-    
+
 }
