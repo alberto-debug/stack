@@ -5,6 +5,9 @@ public class StackArrays {
     int top;
     int[] stackArray;
 
+    public StackArrays(int size){
+        
+    }
 
     public static void main (String[] args){
 
