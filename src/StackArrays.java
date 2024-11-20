@@ -11,6 +11,7 @@ public class StackArrays {
         top = -1;
     }
 
+
     public static void main (String[] args){
 
     }
