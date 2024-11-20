@@ -11,8 +11,7 @@ public class StackArrays {
         stackArray = new  int[maxSize];
         top = -1;
     }
-
-
+    
     public static void main (String[] args){
 
     }
