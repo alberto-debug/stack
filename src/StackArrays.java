@@ -19,6 +19,16 @@ public class StackArrays {
         return (top == maxSize-1);
     }
 
+    public void push(int value){
+        if (isFull()){
+            System.out.println("Stack is full. cannot push " + value);
+        } else {
+            arrayStack[++top] = value;
+            System.out.println("Pushed " + value + "onto the stack");
+
+        }
+    }
+
     public static void main (String[] args){
 
     }
