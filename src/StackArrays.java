@@ -20,12 +20,11 @@ public class StackArrays {
     }
 
     public void push(int value){
-        if (isFull()){
-            System.out.println("Stack is full. cannot push " + value);
+        if (isFull()) {
+            System.out.println("Stack full , cannot push " + value);
         } else {
             arrayStack[++top] = value;
-            System.out.println("Pushed " + value + "onto the stack");
-
+            System.out.println("Pushed " + value + "Onto the stack");
         }
     }
 
