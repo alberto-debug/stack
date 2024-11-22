@@ -15,17 +15,23 @@ public class StackArrays {
         return (top == -1);
     }
 
+
+
     public boolean isFull(){
         return (top == maxSize-1);
     }
 
     public void push(int value){
-        if (isFull()) {
-            System.out.println("Stack full , cannot push " + value);
+        if (isFull()){
+            System.out.println("Stack is full , cannot push " + value);
         } else {
             arrayStack[++top] = value;
-            System.out.println("Pushed " + value + "Onto the stack");
+            System.out.println("Pushed " + value + " onto the stack");
         }
+    }
+
+    public void pop(){
+        
     }
 
     public static void main (String[] args){
