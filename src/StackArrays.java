@@ -11,6 +11,8 @@ public class StackArrays {
         top = -1;
     }
 
+
+
     public boolean isEmpty(){
         return (top == -1);
     }
