@@ -15,8 +15,6 @@ public class StackArrays {
         return (top == -1);
     }
 
-
-
     public boolean isFull(){
         return (top == maxSize-1);
     }
